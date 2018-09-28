@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6C49F5620761C2E0002D474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C49F5520761C2E0002D474 /* AppDelegate.m */; };
+		D6C49F5920761C2E0002D474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C49F5820761C2E0002D474 /* ViewController.m */; };
+		D6C49F5C20761C2E0002D474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C49F5A20761C2E0002D474 /* Main.storyboard */; };
+		D6C49F5E20761C2F0002D474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C49F5D20761C2F0002D474 /* Assets.xcassets */; };
+		D6C49F6120761C2F0002D474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C49F5F20761C2F0002D474 /* LaunchScreen.storyboard */; };
+		D6C49F6420761C2F0002D474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C49F6320761C2F0002D474 /* main.m */; };
+		D6C49F6E20761C2F0002D474 /* ProvincePickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C49F6D20761C2F0002D474 /* ProvincePickTests.m */; };
+		D6C49F7920761C2F0002D474 /* ProvincePickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C49F7820761C2F0002D474 /* ProvincePickUITests.m */; };
+		D6C49F8720761C780002D474 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6C49F8620761C780002D474 /* provinces_cities.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C49F6A20761C2F0002D474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C49F4920761C2E0002D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C49F5020761C2E0002D474;
+			remoteInfo = ProvincePick;
+		};
+		D6C49F7520761C2F0002D474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C49F4920761C2E0002D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C49F5020761C2E0002D474;
+			remoteInfo = ProvincePick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6C49F5120761C2E0002D474 /* ProvincePick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvincePick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C49F5420761C2E0002D474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6C49F5520761C2E0002D474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6C49F5720761C2E0002D474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6C49F5820761C2E0002D474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6C49F5B20761C2E0002D474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6C49F5D20761C2F0002D474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C49F6020761C2F0002D474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6C49F6220761C2F0002D474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C49F6320761C2F0002D474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6C49F6920761C2F0002D474 /* ProvincePickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvincePickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C49F6D20761C2F0002D474 /* ProvincePickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvincePickTests.m; sourceTree = "<group>"; };
+		D6C49F6F20761C2F0002D474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C49F7420761C2F0002D474 /* ProvincePickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvincePickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C49F7820761C2F0002D474 /* ProvincePickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvincePickUITests.m; sourceTree = "<group>"; };
+		D6C49F7A20761C2F0002D474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C49F8620761C780002D474 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C49F4E20761C2E0002D474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F6620761C2F0002D474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F7120761C2F0002D474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C49F4820761C2E0002D474 = {
+			isa = PBXGroup;
+			children = (
+				D6C49F5320761C2E0002D474 /* ProvincePick */,
+				D6C49F6C20761C2F0002D474 /* ProvincePickTests */,
+				D6C49F7720761C2F0002D474 /* ProvincePickUITests */,
+				D6C49F5220761C2E0002D474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C49F5220761C2E0002D474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C49F5120761C2E0002D474 /* ProvincePick.app */,
+				D6C49F6920761C2F0002D474 /* ProvincePickTests.xctest */,
+				D6C49F7420761C2F0002D474 /* ProvincePickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C49F5320761C2E0002D474 /* ProvincePick */ = {
+			isa = PBXGroup;
+			children = (
+				D6C49F8620761C780002D474 /* provinces_cities.plist */,
+				D6C49F5420761C2E0002D474 /* AppDelegate.h */,
+				D6C49F5520761C2E0002D474 /* AppDelegate.m */,
+				D6C49F5720761C2E0002D474 /* ViewController.h */,
+				D6C49F5820761C2E0002D474 /* ViewController.m */,
+				D6C49F5A20761C2E0002D474 /* Main.storyboard */,
+				D6C49F5D20761C2F0002D474 /* Assets.xcassets */,
+				D6C49F5F20761C2F0002D474 /* LaunchScreen.storyboard */,
+				D6C49F6220761C2F0002D474 /* Info.plist */,
+				D6C49F6320761C2F0002D474 /* main.m */,
+			);
+			path = ProvincePick;
+			sourceTree = "<group>";
+		};
+		D6C49F6C20761C2F0002D474 /* ProvincePickTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C49F6D20761C2F0002D474 /* ProvincePickTests.m */,
+				D6C49F6F20761C2F0002D474 /* Info.plist */,
+			);
+			path = ProvincePickTests;
+			sourceTree = "<group>";
+		};
+		D6C49F7720761C2F0002D474 /* ProvincePickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C49F7820761C2F0002D474 /* ProvincePickUITests.m */,
+				D6C49F7A20761C2F0002D474 /* Info.plist */,
+			);
+			path = ProvincePickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C49F5020761C2E0002D474 /* ProvincePick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C49F7D20761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePick" */;
+			buildPhases = (
+				D6C49F4D20761C2E0002D474 /* Sources */,
+				D6C49F4E20761C2E0002D474 /* Frameworks */,
+				D6C49F4F20761C2E0002D474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvincePick;
+			productName = ProvincePick;
+			productReference = D6C49F5120761C2E0002D474 /* ProvincePick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C49F6820761C2F0002D474 /* ProvincePickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C49F8020761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePickTests" */;
+			buildPhases = (
+				D6C49F6520761C2F0002D474 /* Sources */,
+				D6C49F6620761C2F0002D474 /* Frameworks */,
+				D6C49F6720761C2F0002D474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C49F6B20761C2F0002D474 /* PBXTargetDependency */,
+			);
+			name = ProvincePickTests;
+			productName = ProvincePickTests;
+			productReference = D6C49F6920761C2F0002D474 /* ProvincePickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C49F7320761C2F0002D474 /* ProvincePickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C49F8320761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePickUITests" */;
+			buildPhases = (
+				D6C49F7020761C2F0002D474 /* Sources */,
+				D6C49F7120761C2F0002D474 /* Frameworks */,
+				D6C49F7220761C2F0002D474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C49F7620761C2F0002D474 /* PBXTargetDependency */,
+			);
+			name = ProvincePickUITests;
+			productName = ProvincePickUITests;
+			productReference = D6C49F7420761C2F0002D474 /* ProvincePickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C49F4920761C2E0002D474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JasonZ;
+				TargetAttributes = {
+					D6C49F5020761C2E0002D474 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D6C49F6820761C2F0002D474 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D6C49F5020761C2E0002D474;
+					};
+					D6C49F7320761C2F0002D474 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D6C49F5020761C2E0002D474;
+					};
+				};
+			};
+			buildConfigurationList = D6C49F4C20761C2E0002D474 /* Build configuration list for PBXProject "ProvincePick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C49F4820761C2E0002D474;
+			productRefGroup = D6C49F5220761C2E0002D474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C49F5020761C2E0002D474 /* ProvincePick */,
+				D6C49F6820761C2F0002D474 /* ProvincePickTests */,
+				D6C49F7320761C2F0002D474 /* ProvincePickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C49F4F20761C2E0002D474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C49F6120761C2F0002D474 /* LaunchScreen.storyboard in Resources */,
+				D6C49F8720761C780002D474 /* provinces_cities.plist in Resources */,
+				D6C49F5E20761C2F0002D474 /* Assets.xcassets in Resources */,
+				D6C49F5C20761C2E0002D474 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F6720761C2F0002D474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F7220761C2F0002D474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C49F4D20761C2E0002D474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C49F5920761C2E0002D474 /* ViewController.m in Sources */,
+				D6C49F6420761C2F0002D474 /* main.m in Sources */,
+				D6C49F5620761C2E0002D474 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F6520761C2F0002D474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C49F6E20761C2F0002D474 /* ProvincePickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C49F7020761C2F0002D474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C49F7920761C2F0002D474 /* ProvincePickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C49F6B20761C2F0002D474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C49F5020761C2E0002D474 /* ProvincePick */;
+			targetProxy = D6C49F6A20761C2F0002D474 /* PBXContainerItemProxy */;
+		};
+		D6C49F7620761C2F0002D474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C49F5020761C2E0002D474 /* ProvincePick */;
+			targetProxy = D6C49F7520761C2F0002D474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6C49F5A20761C2E0002D474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C49F5B20761C2E0002D474 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6C49F5F20761C2F0002D474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C49F6020761C2F0002D474 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C49F7B20761C2F0002D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6C49F7C20761C2F0002D474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C49F7E20761C2F0002D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C49F7F20761C2F0002D474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C49F8120761C2F0002D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvincePick.app/ProvincePick";
+			};
+			name = Debug;
+		};
+		D6C49F8220761C2F0002D474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvincePick.app/ProvincePick";
+			};
+			name = Release;
+		};
+		D6C49F8420761C2F0002D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvincePick;
+			};
+			name = Debug;
+		};
+		D6C49F8520761C2F0002D474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvincePickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlab.ProvincePickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvincePick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C49F4C20761C2E0002D474 /* Build configuration list for PBXProject "ProvincePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C49F7B20761C2F0002D474 /* Debug */,
+				D6C49F7C20761C2F0002D474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C49F7D20761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C49F7E20761C2F0002D474 /* Debug */,
+				D6C49F7F20761C2F0002D474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C49F8020761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C49F8120761C2F0002D474 /* Debug */,
+				D6C49F8220761C2F0002D474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C49F8320761C2F0002D474 /* Build configuration list for PBXNativeTarget "ProvincePickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C49F8420761C2F0002D474 /* Debug */,
+				D6C49F8520761C2F0002D474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C49F4920761C2E0002D474 /* Project object */;
+}

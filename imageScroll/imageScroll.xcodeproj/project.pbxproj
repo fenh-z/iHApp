@@ -107,6 +107,7 @@
 				D619821120DF730E006E30F5 /* ViewController.m */,
 				D619821320DF730E006E30F5 /* Main.storyboard */,
 				D619821620DF730F006E30F5 /* Assets.xcassets */,
+				D6A75F32218D4BBE000ECA17 /* resource */,
 				D619821820DF730F006E30F5 /* LaunchScreen.storyboard */,
 				D619821B20DF730F006E30F5 /* Info.plist */,
 				D619821C20DF730F006E30F5 /* main.m */,
@@ -130,6 +131,21 @@
 				D619823320DF730F006E30F5 /* Info.plist */,
 			);
 			path = imageScrollUITests;
+			sourceTree = "<group>";
+		};
+		D6A75F32218D4BBE000ECA17 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				D6A75F33218D4BCE000ECA17 /* image */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		D6A75F33218D4BCE000ECA17 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

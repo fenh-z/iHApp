@@ -10,12 +10,21 @@
 #define imageCnt 5
 
 @interface ViewController () <UIScrollViewDelegate>
+- (IBAction)didTapBakGround:(id)sender;
+- (IBAction)slidChg:(id)sender;
+- (IBAction)swirchChange:(UISwitch *)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *togglesSwitch;
+@property (weak, nonatomic) IBOutlet UITextField *inputTextFeild;
+@property (weak, nonatomic) IBOutlet UILabel *slidLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *leftSwitch;
 @property (strong, nonatomic) UIScrollView *scrollview;
+@property (weak, nonatomic) IBOutlet UISwitch *rightSwich;
 @end
 
 
 
 @implementation ViewController
+
 
 - (UIScrollView *)scrollview{
     
@@ -51,6 +60,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.slidLabel.text = @"50";
+    
     
     for (int i = 1; i<imageCnt; i++) {
         
@@ -94,5 +106,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)didTapBakGround:(id)sender{
+    [self.inputTextFeild resignFirstResponder];
+}
+
+- (IBAction)slidChg:(UISlider*)sender {
+    
+    int progress = (int)lroundf(sender.value);
+    
+    self.slidLabel.text = [NSString stringWithFormat:@"%d", progress];
+    
+}
+
+- (IBAction)swirchChange:(UISwitch *)sender {
+    
+    BOOL setting = sender.isOn;
+    
+    [self.rightSwich setOn:setting animated:YES];
+    [self.leftSwitch setOn:setting animated:YES];
+    
+}
 
 @end
